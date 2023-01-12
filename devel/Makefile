@@ -719,6 +719,7 @@
      SUBDIR += p5-ExtUtils-Depends
      SUBDIR += p5-ExtUtils-Helpers
      SUBDIR += p5-ExtUtils-InstallPaths
+     SUBDIR += p5-ExtUtils-LibBuilder
      SUBDIR += p5-ExtUtils-PkgConfig
      SUBDIR += p5-ExtUtils-Typemaps-Default
      SUBDIR += p5-ExtUtils-XSBuilder

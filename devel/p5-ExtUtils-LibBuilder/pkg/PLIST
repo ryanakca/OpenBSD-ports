@@ -1,0 +1,3 @@
+@comment $OpenBSD: PLIST,v$
+${P5SITE}/ExtUtils/LibBuilder.pm
+@man man/man3p/ExtUtils::LibBuilder.3p
