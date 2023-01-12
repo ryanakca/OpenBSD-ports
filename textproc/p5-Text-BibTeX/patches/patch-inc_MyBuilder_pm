@@ -1,0 +1,43 @@
+The pod files generate man pages for library functions.
+They belong in section 3 instead of section 1.
+Similarly, an FAQ belongs in section 7.
+Index: inc/MyBuilder.pm
+--- inc/MyBuilder.pm.orig
++++ inc/MyBuilder.pm
+@@ -51,6 +51,8 @@ sub ACTION_install {
+         $usrlib = catdir($self->{properties}{install_base} => 'lib');
+         $self->install_path( 'usrlib' => $usrlib );
+     }
++    $self->install_path( 'man3'   => '/usr/local/man/man3' );
++    $self->install_path( 'man7'   => '/usr/local/man/man7' );
+     $self->SUPER::ACTION_install;
+     if ($^O =~ /linux/ && $ENV{USER} eq 'root') {
+         my $linux = Config::AutoConf->check_prog("ldconfig");
+@@ -175,20 +177,22 @@ sub ACTION_create_manpages {
+     my $pods = $self->rscan_dir(catdir("btparse","doc"), qr/\.pod$/);
+ 
+     my $version = $self->notes('btparse_version');
++    mkdir catfile('blib', 'man3');
+     for my $pod (@$pods) {
+         my $man = $pod;
+-        $man =~ s!.pod!.1!;
+-        $man =~ s!btparse/doc!blib/bindoc!;   ## FIXME - path
++        $man =~ s!.pod!.3!;
++        $man =~ s!btparse/doc!blib/man3!;   ## FIXME - path
+         next if $self->up_to_date($pod, $man);
+         ## FIXME
+-        `pod2man --section=1 --center="btparse" --release="btparse, version $version" $pod $man`;
++        `pod2man --section=3 --center="btparse" --release="btparse, version $version" $pod $man`;
+     }
+ 
+     my $pod = 'btool_faq.pod';
+-    my $man = catfile('blib','bindoc','btool_faq.1');
++    my $man = catfile('blib','man7','btool_faq.7');
++    mkdir catfile('blib', 'man7');
+     unless ($self->up_to_date($pod, $man)) {
+         ## FIXME
+-        `pod2man --section=1 --center="btparse" --release="btparse, version $version" $pod $man`;
++        `pod2man --section=7 --center="btparse" --release="btparse, version $version" $pod $man`;
+     }
+ }
+ 

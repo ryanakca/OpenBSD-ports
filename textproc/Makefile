@@ -273,6 +273,7 @@
      SUBDIR += p5-Text-Aligner
      SUBDIR += p5-Text-Aspell
      SUBDIR += p5-Text-Autoformat
+     SUBDIR += p5-Text-BibTeX
      SUBDIR += p5-Text-CSV
      SUBDIR += p5-Text-CSV-Hashify
      SUBDIR += p5-Text-CSV_XS
