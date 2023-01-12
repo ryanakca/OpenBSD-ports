@@ -1,0 +1,44 @@
+@bin bin/biblex
+@bin bin/bibparse
+@bin bin/dumpnames
+include/btparse.h
+@so lib/libbtparse.so
+${P5ARCH}/
+${P5ARCH}/Text/
+${P5ARCH}/Text/BibTeX/
+${P5ARCH}/Text/BibTeX.pm
+${P5ARCH}/Text/BibTeX/Bib.pm
+${P5ARCH}/Text/BibTeX/BibFormat.pm
+${P5ARCH}/Text/BibTeX/BibSort.pm
+${P5ARCH}/Text/BibTeX/Entry.pm
+${P5ARCH}/Text/BibTeX/File.pm
+${P5ARCH}/Text/BibTeX/Name.pm
+${P5ARCH}/Text/BibTeX/NameFormat.pm
+${P5ARCH}/Text/BibTeX/Structure.pm
+${P5ARCH}/Text/BibTeX/Value.pm
+${P5ARCH}/auto/
+${P5ARCH}/auto/Text/
+${P5ARCH}/auto/Text/BibTeX/
+${P5ARCH}/auto/Text/BibTeX/BibTeX.bs
+@so ${P5ARCH}/auto/Text/BibTeX/BibTeX.so
+@man man/man1/bt_format_names.1
+@man man/man1/bt_input.1
+@man man/man1/bt_language.1
+@man man/man1/bt_macros.1
+@man man/man1/bt_misc.1
+@man man/man1/bt_post_processing.1
+@man man/man1/bt_postprocess.1
+@man man/man1/bt_split_names.1
+@man man/man1/bt_traversal.1
+@man man/man1/btool_faq.1
+@man man/man1/btparse.1
+@man man/man3p/Text::BibTeX.3p
+@man man/man3p/Text::BibTeX::Bib.3p
+@man man/man3p/Text::BibTeX::BibFormat.3p
+@man man/man3p/Text::BibTeX::BibSort.3p
+@man man/man3p/Text::BibTeX::Entry.3p
+@man man/man3p/Text::BibTeX::File.3p
+@man man/man3p/Text::BibTeX::Name.3p
+@man man/man3p/Text::BibTeX::NameFormat.3p
+@man man/man3p/Text::BibTeX::Structure.3p
+@man man/man3p/Text::BibTeX::Value.3p
