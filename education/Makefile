@@ -1,4 +1,5 @@
      SUBDIR =
+     SUBDIR += aldo
      SUBDIR += algotutor
      SUBDIR += anki
      SUBDIR += drgeo

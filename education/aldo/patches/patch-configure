@@ -1,0 +1,17 @@
+Let the ports system set these flags. Patch courtesy of NetBSD pkgsrc-wip.
+Index: configure
+--- configure.orig
++++ configure
+@@ -2725,9 +2725,9 @@ am__tar='$${TAR-tar} chof - "$$tardir"' am__untar='$${
+ 
+ 
+ 
+-CPPFLAGS="-I${includedir}"
+-LDFLAGS="-L${libdir}"
+-LIBS="-L${libdir} ${LIBS}"
++CPPFLAGS="-I${includedir} ${CPPFLAGS}"
++LDFLAGS="-L${libdir} ${LDFLAGS}"
++LIBS="-L${libdir} ${LIBS}"
+ 
+ # Checks for programs.
+ ac_ext=cpp
