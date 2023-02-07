@@ -293,6 +293,7 @@
      SUBDIR += p5-Text-RecordParser
      SUBDIR += p5-Text-Reflow
      SUBDIR += p5-Text-Reform
+     SUBDIR += p5-Text-Roman
      SUBDIR += p5-Text-SimpleTable
      SUBDIR += p5-Text-Soundex
      SUBDIR += p5-Text-Table
