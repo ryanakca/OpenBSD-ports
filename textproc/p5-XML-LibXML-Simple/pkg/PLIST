@@ -1,0 +1,7 @@
+@conflict p5-XML-LibXML-Common-*
+@pkgpath textproc/p5-LibXML-Common
+${P5SITE}/XML/LibXML/
+${P5SITE}/XML/LibXML/Simple.pm
+${P5SITE}/XML/LibXML/Simple.pod
+@man man/man3p/XML::LibXML::Simple.3p
+share/doc/pkg-readmes/${PKGSTEM}

@@ -1,0 +1,2 @@
+This module is rewrite of the XML::Simple (textproc/p5-XML-Simple) XML parser to
+use XML::LibXML structures instead of SAX or plain Perl parsers.

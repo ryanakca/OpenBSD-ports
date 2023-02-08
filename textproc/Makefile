@@ -319,6 +319,7 @@
      SUBDIR += p5-XML-Filter-ExceptionLocator
      SUBDIR += p5-XML-Generator
      SUBDIR += p5-XML-LibXML
+     SUBDIR += p5-XML-LibXML-Simple
      SUBDIR += p5-XML-LibXSLT
      SUBDIR += p5-XML-Literal
      SUBDIR += p5-XML-NamespaceSupport
