@@ -1,0 +1,3 @@
+autovivification silently upgrades undefined variables to arrays or hash
+references when they are dereference. This pragma lets you disable
+autovivification for some constructs.

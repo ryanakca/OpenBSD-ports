@@ -1,0 +1,6 @@
+${P5ARCH}/
+${P5ARCH}/auto/
+${P5ARCH}/auto/autovivification/
+@so ${P5ARCH}/auto/autovivification/autovivification.so
+${P5ARCH}/autovivification.pm
+@man man/man3p/autovivification.3p

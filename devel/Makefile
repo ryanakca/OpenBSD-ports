@@ -1259,6 +1259,7 @@
      SUBDIR += p5-aliased
      SUBDIR += p5-asa
      SUBDIR += p5-autobox
+     SUBDIR += p5-autovivification
      SUBDIR += p5-bareword-filehandles
      SUBDIR += p5-boolean
      SUBDIR += p5-capitalization
