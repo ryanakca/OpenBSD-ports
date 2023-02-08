@@ -502,6 +502,7 @@
      SUBDIR += p5-Benchmark-Timer
      SUBDIR += p5-Best
      SUBDIR += p5-Bit-Vector-Minimal
+     SUBDIR += p5-Business-ISBN
      SUBDIR += p5-C-Scan
      SUBDIR += p5-CLASS
      SUBDIR += p5-CLI-Framework

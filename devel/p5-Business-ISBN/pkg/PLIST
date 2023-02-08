@@ -1,0 +1,7 @@
+${P5SITE}/Business/
+${P5SITE}/Business/ISBN.pm
+${P5SITE}/Business/ISBN10.pm
+${P5SITE}/Business/ISBN13.pm
+@man man/man3p/Business::ISBN.3p
+@man man/man3p/Business::ISBN10.3p
+@man man/man3p/Business::ISBN13.3p

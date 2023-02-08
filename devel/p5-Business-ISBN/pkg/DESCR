@@ -1,0 +1,2 @@
+This modules handles International Standard Book Numbers, including ISBN-10 and
+ISBN-13. It supports parsing, checking, and extracting various components.
