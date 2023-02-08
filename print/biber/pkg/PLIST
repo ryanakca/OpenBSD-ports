@@ -1,0 +1,72 @@
+bin/biber
+${P5SITE}/Biber/
+${P5SITE}/Biber.pm
+${P5SITE}/Biber/Annotation.pm
+${P5SITE}/Biber/Config.pm
+${P5SITE}/Biber/Constants.pm
+${P5SITE}/Biber/DataList.pm
+${P5SITE}/Biber/DataLists.pm
+${P5SITE}/Biber/DataModel.pm
+${P5SITE}/Biber/Date/
+${P5SITE}/Biber/Date/Format.pm
+${P5SITE}/Biber/Entries.pm
+${P5SITE}/Biber/Entry/
+${P5SITE}/Biber/Entry.pm
+${P5SITE}/Biber/Entry/Name.pm
+${P5SITE}/Biber/Entry/Names.pm
+${P5SITE}/Biber/Input/
+${P5SITE}/Biber/Input/file/
+${P5SITE}/Biber/Input/file/biblatexml.pm
+${P5SITE}/Biber/Input/file/bibtex.pm
+${P5SITE}/Biber/Internals.pm
+${P5SITE}/Biber/LaTeX/
+${P5SITE}/Biber/LaTeX/Recode.pm
+${P5SITE}/Biber/LaTeX/recode_data.xml
+${P5SITE}/Biber/LangTag.pm
+${P5SITE}/Biber/LangTags.pm
+${P5SITE}/Biber/Output/
+${P5SITE}/Biber/Output/base.pm
+${P5SITE}/Biber/Output/bbl.pm
+${P5SITE}/Biber/Output/bblxml.pm
+${P5SITE}/Biber/Output/biblatexml.pm
+${P5SITE}/Biber/Output/bibtex.pm
+${P5SITE}/Biber/Output/dot.pm
+${P5SITE}/Biber/Section.pm
+${P5SITE}/Biber/Sections.pm
+${P5SITE}/Biber/UCollate.pm
+${P5SITE}/Biber/Utils.pm
+${P5SITE}/Biber/bcf.rnc
+${P5SITE}/Biber/bcf.rng
+${P5SITE}/Biber/bcf.xsl
+${P5SITE}/Biber/biber-tool.conf
+${P5SITE}/Biber/config.rnc
+${P5SITE}/Biber/config.rng
+@man man/man1/biber.1
+@man man/man3p/Biber.3p
+@man man/man3p/Biber::Annotation.3p
+@man man/man3p/Biber::Config.3p
+@man man/man3p/Biber::Constants.3p
+@man man/man3p/Biber::DataList.3p
+@man man/man3p/Biber::DataLists.3p
+@man man/man3p/Biber::DataModel.3p
+@man man/man3p/Biber::Date::Format.3p
+@man man/man3p/Biber::Entries.3p
+@man man/man3p/Biber::Entry.3p
+@man man/man3p/Biber::Entry::Name.3p
+@man man/man3p/Biber::Entry::Names.3p
+@man man/man3p/Biber::Input::file::biblatexml.3p
+@man man/man3p/Biber::Input::file::bibtex.3p
+@man man/man3p/Biber::Internals.3p
+@man man/man3p/Biber::LaTeX::Recode.3p
+@man man/man3p/Biber::LangTag.3p
+@man man/man3p/Biber::LangTags.3p
+@man man/man3p/Biber::Output::base.3p
+@man man/man3p/Biber::Output::bbl.3p
+@man man/man3p/Biber::Output::bblxml.3p
+@man man/man3p/Biber::Output::biblatexml.3p
+@man man/man3p/Biber::Output::bibtex.3p
+@man man/man3p/Biber::Output::dot.3p
+@man man/man3p/Biber::Section.3p
+@man man/man3p/Biber::Sections.3p
+@man man/man3p/Biber::UCollate.3p
+@man man/man3p/Biber::Utils.3p

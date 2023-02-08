@@ -1,0 +1,19 @@
+commit 9daa6abc108acb3013c780cc53fe294f47179106
+Author: Ryan Kavanagh <rak@rak.ac>
+Date:   Tue Feb 21 12:59:23 2023 -0500
+
+    Fix syntax error caught by Perl 5.36
+
+diff --git lib/Biber/Section.pm lib/Biber/Section.pm
+index 03ed69a5..a78942f5 100644
+--- lib/Biber/Section.pm
++++ lib/Biber/Section.pm
+@@ -429,7 +429,7 @@ sub add_everykey {
+ 
+ sub del_everykeys {
+   my $self = shift;
+-  $self->{everykey} = undef
++  $self->{everykey} = undef;
+   $self->{everykey_lc} = undef;
+   return;
+ }
