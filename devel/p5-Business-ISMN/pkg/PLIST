@@ -1,0 +1,6 @@
+${P5SITE}/Business/
+${P5SITE}/Business/ISMN/
+${P5SITE}/Business/ISMN.pm
+${P5SITE}/Business/ISMN/Data.pm
+@man man/man3p/Business::ISMN.3p
+@man man/man3p/Business::ISMN::Data.3p

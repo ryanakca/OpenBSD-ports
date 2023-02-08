@@ -1,0 +1,2 @@
+This modules handles International Standard Music Numbers. It supports parsing,
+validity checking, and extracting various components.
