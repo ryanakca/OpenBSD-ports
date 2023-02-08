@@ -1,0 +1,7 @@
+${P5ARCH}/
+${P5ARCH}/Encode/
+${P5ARCH}/Encode/EUCJPASCII.pm
+${P5ARCH}/auto/
+${P5ARCH}/auto/Encode/
+${P5ARCH}/auto/Encode/EUCJPASCII/
+@so ${P5ARCH}/auto/Encode/EUCJPASCII/EUCJPASCII.so

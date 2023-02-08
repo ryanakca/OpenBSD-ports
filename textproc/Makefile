@@ -180,6 +180,7 @@
      SUBDIR += p5-Catalyst-View-XSLT
      SUBDIR += p5-Data-Password
      SUBDIR += p5-Email-Find
+     SUBDIR += p5-Encode-EUCJPASCII
      SUBDIR += p5-Encode-Detect
      SUBDIR += p5-Encode-HanExtra
      SUBDIR += p5-Encode-Locale
