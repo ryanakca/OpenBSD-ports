@@ -504,6 +504,7 @@
      SUBDIR += p5-Bit-Vector-Minimal
      SUBDIR += p5-Business-ISBN
      SUBDIR += p5-Business-ISMN
+     SUBDIR += p5-Business-ISSN
      SUBDIR += p5-C-Scan
      SUBDIR += p5-CLASS
      SUBDIR += p5-CLI-Framework

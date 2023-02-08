@@ -1,0 +1,2 @@
+This modules handles International Standard Serial Numbers. It supports parsing
+and validity checking.
