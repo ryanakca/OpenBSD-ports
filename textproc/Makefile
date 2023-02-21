@@ -215,6 +215,7 @@
      SUBDIR += p5-Lingua-Stem-Snowball-Da
      SUBDIR += p5-Lingua-Stem-Snowball-No
      SUBDIR += p5-Lingua-Stem-Snowball-Se
+     SUBDIR += p5-Lingua-Translit
      SUBDIR += p5-Lingua-Treebank
      SUBDIR += p5-List-SomeUtils
      SUBDIR += p5-List-SomeUtils-XS

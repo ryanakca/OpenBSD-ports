@@ -1,0 +1,8 @@
+bin/translit
+${P5SITE}/Lingua/
+${P5SITE}/Lingua/Translit/
+${P5SITE}/Lingua/Translit.pm
+${P5SITE}/Lingua/Translit/Tables.pm
+@man man/man1/translit.1
+@man man/man3p/Lingua::Translit.3p
+@man man/man3p/Lingua::Translit::Tables.3p
