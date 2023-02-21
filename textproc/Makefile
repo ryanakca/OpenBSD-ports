@@ -183,6 +183,7 @@
      SUBDIR += p5-Encode-EUCJPASCII
      SUBDIR += p5-Encode-Detect
      SUBDIR += p5-Encode-HanExtra
+     SUBDIR += p5-Encode-JIS2K
      SUBDIR += p5-Encode-Locale
      SUBDIR += p5-File-KDBX
      SUBDIR += p5-File-KeePass

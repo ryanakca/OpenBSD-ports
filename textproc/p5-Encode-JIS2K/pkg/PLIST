@@ -1,0 +1,9 @@
+${P5ARCH}/
+${P5ARCH}/Encode/
+${P5ARCH}/Encode/JIS2K/
+${P5ARCH}/Encode/JIS2K.pm
+${P5ARCH}/Encode/JIS2K/2022JP3.pm
+${P5ARCH}/auto/
+${P5ARCH}/auto/Encode/
+${P5ARCH}/auto/Encode/JIS2K/
+@so ${P5ARCH}/auto/Encode/JIS2K/JIS2K.so
